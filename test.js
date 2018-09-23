@@ -12,7 +12,6 @@ describe('Zeros', () => {
     const zerosCount = getZerosCount(46899647, 232);
     assert.equal(zerosCount, 1674985);
   });
-
   it('3', () => {
     const zerosCount = getZerosCount(82557730, 84);
     assert.equal(zerosCount, 13759618);
@@ -48,7 +47,7 @@ describe('Zeros', () => {
     assert.equal(zerosCount, 5046624);
   });
 
-  it('10', () => {
+ it('10', () => {
     const zerosCount = getZerosCount(92357634, 187);
     assert.equal(zerosCount, 5772349);
   });
